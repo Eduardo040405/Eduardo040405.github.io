@@ -3,7 +3,9 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    color: #2c2c2c;
+    background-color: #2c2c2c;
+
 }
 .bg_video{
     display: flex;
@@ -14,24 +16,12 @@ body{
     width: 100%;
 }
 .img{
-    float: left;
+   float: left;
     background-repeat: no-repeat;
     width: 100px;
-    border-radius: 50%;
+    border-radius: 50%; 
 }
-html{
-    /* height: 500vh; */
-    background-color: black;
-}
-.conteudo{
-    max-width: 1280px;
-    margin: auto;
-}
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 header{
     width: 100%;
     padding: 60px 4%;
@@ -39,9 +29,14 @@ header{
     top: 0;
     left: 0;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 header.rolagem{
-    background-color: #fff;
+    background-color: white
+
+    ;
     padding: 20px 4%;
 }
 header.rolagem a{
@@ -61,9 +56,10 @@ header ul li{
     margin: 0px 40px;
 }
 header ul li a{
-    color: #fff;
+    color: white;
     transition: all 0.2s;
     text-decoration: none;
+    font-weight: bold;
 }
 header ul li a:hover{
     color: green;
@@ -123,5 +119,35 @@ h2 {
     display: block;
     padding: 10px;
 }
+h3{
+    color: #fff;
+    font-weight: bold;
+}
+p{
+    color: #fff;
+}
+.artigos{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 2px white;
+    margin-top: 200px;
+}
+
+.wats {
+    font-size: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+}
+
+.wats a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
 
 
